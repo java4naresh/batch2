@@ -1,13 +1,7 @@
 class FloatTest {
 
-static float price = 9223372036854775809.01f;
+float price = 3.4e38f; //3.4*(10*10*10
+double d = 1.79e308; // 
 
-static {
-System.out.println(price);
-}
-
-public static void main(String[] args) {
-
-}
 
 }
