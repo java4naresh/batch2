@@ -3,7 +3,7 @@ class ElseIfCurrentBill{
 public static void main(String[] args){
 
 String name="Srinivas";
-float currentBillUnits=650f;
+int currentBillUnits=650;
 
 if(currentBillUnits>700){
 
