@@ -23,7 +23,7 @@ System.out.println(name+" "+"currentbill"+" "+ (currentBillUnits*3));
 
 }else if(currentBillUnits>300&&currentBillUnits<400){
 
-System.out.println(name+" "+"currentbill"+" "+ (currentBillUnits*3));
+System.out.println(name+" "+"currentbill"+" "+ (currentBillUnits*2));
 }
 else{
 System.out.println("worng");
