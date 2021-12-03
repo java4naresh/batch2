@@ -2,8 +2,8 @@ class SwitchCaseTest{
 
 public static void main(String[] args){
 
-//int zodiac = 1;
-//String zodiac= "Aries";
+//int zodiac = 5;
+//String zodiac= "january";
 char owel='b';
  /*switch(zodiac) {
 case 1: System.out.println("Aries"); break;
@@ -20,7 +20,7 @@ case 11: System.out.println("Aquarius"); break;
 case 12: System.out.println("Pisces"); break;
 default: System.out.println("Invalid month");
 }*/
- /*switch(zodiac){
+ /*switch(month){
 case "Aries": System.out.println(1); break;
 case"Taurus": System.out.println(2); break;
 case"Gemini": System.out.println(3); break;
