@@ -1,11 +1,11 @@
 class ApPolityParties{
 public static void main( String[] args)
 {
- system.out.println("Ap state");
- system.out.println("Ap jspparty");
- system.out.println("Ap tdpparty"); 
- system.out.println("Ap ysrparty");
- system.out.println("Ap congressparty");
+ System.out.println("Ap state");
+ System.out.println("Ap jspparty");
+ System.out.println("Ap tdpparty"); 
+ System.out.println("Ap ysrparty");
+ System.out.println("Ap congressparty");
 
    }
 }
