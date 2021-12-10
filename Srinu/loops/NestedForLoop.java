@@ -17,7 +17,7 @@ class NestedForLoop
       System.out.println("=========");
 	
 		}*/
-	/*int num=6;
+	int num=6;
    for (int d=1;d<num;d++ )
    {
    for (int s=1;s<num ;s++ )
@@ -26,7 +26,7 @@ class NestedForLoop
    }
       System.out.println();
 
-   }*/
+   }
    /*int num=6;
    for (int d=1;d<num;d++ )
    {
@@ -43,41 +43,12 @@ class NestedForLoop
      System.out.println();
 	 System.out.println("=======");
 }*/
-int num=6;
-   for (int d=5;d<num;d++ )
-   { 
-   for (int s=5;s<num ;s++ )
-   {
-   System.out.print("*");//
-   
-   }
-  
-    System.out.println();
-   
+
 	
 
-   for (int s=4;s<num;s++)
-   {
-   System.out.print("*");//
-     }
-      System.out.println();
-	 for (int s=3;s<num;s++)
-	 {
-  System.out.print("*");//
-	 }
-	  System.out.println();
-	 for (int s=2;s<num;s++)
-		 {
-		System.out.print("*");//
-
-		 }
-       System.out.println();
-for (int s=1;s<num;s++ )
-{
-System.out.print("*");
-}
+  
                               
-  }
+  
 
 }
 }
