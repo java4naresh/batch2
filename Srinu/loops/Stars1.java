@@ -30,7 +30,7 @@ class Stars1
         }
 		System.out.println();
 		}*/
-		/*for (int i=300;i>293;i--)
+		for (int i=300;i>293;i--)
 		{
         for (int j=299;j>293;j-- )
         {
@@ -43,8 +43,8 @@ class Stars1
 			}
         }
 		System.out.println();
-		}*/
-		for (int i=299;i>293;i--)
+		}
+	/*	for (int i=299;i>293;i--)
 		{
         for (int j=299;j>293;j-- )
         {
@@ -57,6 +57,6 @@ class Stars1
 			}
         }
 		System.out.println();
-	}
+	}*/
 }
 }
