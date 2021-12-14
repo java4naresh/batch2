@@ -51,6 +51,5 @@ class  StarTest1
            System.out.println();
 	     }
 				
-		//System.out.print(" ");
 	}
 }
