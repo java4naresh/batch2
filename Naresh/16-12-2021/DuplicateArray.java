@@ -7,9 +7,9 @@ class DuplicateArray
 		int[] numbers = {1,2,3,5,3,2,5,9};//This is the one more way of creating array
 		int[] uniqueNumbers = null;
         int index = 0;
-		for(int i = 0; i < numbers.length; i++) {
+		for(int i = 0; i < numbers.length; i++) {//1
 			int count = 0;
-		for(int j = 0; j < numbers.length; j++) {
+		for(int j = 0; j < numbers.length; j++) {//1,2,3,5,3,2,5,9
 		 if(numbers[i] == numbers[j]) count++;
 		}
 		if(count == 1){
