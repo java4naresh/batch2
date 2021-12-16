@@ -8,3 +8,6 @@ char []chars= new char[26];
 			chars[index]=  (char )i;
 			System.out.println(chars[index]+ " ");
 			index++;
+}
+}
+}
