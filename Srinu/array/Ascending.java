@@ -28,7 +28,7 @@ class  Ascending
 		    
 			 System.out.println(values[i]);  
 		 }*/
-		 int [] values=new int[10];
+		int [] values=new int[10];
          values[0]=5;
 		 values[1]=15;
 		 values[2]=4;
@@ -54,6 +54,8 @@ class  Ascending
 		    
 			 System.out.println(values[i]);  
 		 }
+		
+		 
 		  
 	}
 }
