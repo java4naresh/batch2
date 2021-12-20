@@ -7,10 +7,12 @@ class  DuplicateChar
 		char[] chars = {"A",'D','L','A','D','L',};
 		char[] uniqueChars = null;
 		char index = 0;
-		for(int i=0;i< chars.length;i++){
+		
+		
+	for(int i=0;i< chars.length;i++){
 			  int count =0;
 		  for(int j=0;j< chars.length;j++){
-			if(chars[i]==chars[j]) count++;
+			if(chars[i]==chars[j]) count++;//
 		  }
 		   if(count==1){
 			if(uniqueChars != null){
