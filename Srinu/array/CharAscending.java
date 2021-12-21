@@ -2,7 +2,7 @@ class CharAscending
 {
 	public static void main(String[] args) 
 	{
-		char[]ch={'A','F','D','C','E','F','B','H','I','X','P','Q','S','R','V','T','U','W','Z','Y','O','N','M','L','K','J',};
+		char[]ch={'A','F','D','C','E','G','B','H','I','X','P','Q','S','R','V','T','U','W','Z','Y','O','N','M','L','K','J',};
             
 		 int tem=0;
 		 for (int i=0;i<ch.length;i++)
@@ -11,12 +11,9 @@ class CharAscending
 			 { 
               if (ch[i]>ch[a]){
 				  tem=ch[i];
-			  ch[i]=ch[a];
-			  ch[a]=(char) (tem);
-			 
-
+			      ch[i]=ch[a];
+			      ch[a]=(char) (tem);
 			 }
-
 			 }
 			 System.out.print(ch[i]+",");  
 

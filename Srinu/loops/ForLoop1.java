@@ -2,23 +2,22 @@ class ForLoop1
 {
 	public static void main(String[] args) 
 	{
-		/*int d=1;
+		int d=1;
 		int fact=1;
 		int num=10;
 		
 		for(d=1;d<=num;d++){
 			
-         fact= fact*d;
+         fact= fact*5;
 		 System.out.println(fact);
 		}
 
 		for(d=1;d<=num;d++){
 			
-        fact=fact*d;
-
+        fact=fact*d;  
 		}
-	    System.out.println(fact);*/
-     /* int num =5;
+	    System.out.println(fact);
+   /*   int num =5;
 	  int d=1;
 	  int primecheck=0;
 	  for(d=1;d<5;d++){
@@ -35,12 +34,12 @@ class ForLoop1
         } 
 		else{
 		 System.out.println(num+"  is not prime number");	
-        }*/
+        }
 		
 		
 		
 		
-		for (int d=3;d<100;d++){
+	/*	for (int d=3;d<100;d++){
 				int primecheck=0;
 	
         for (int i=2;i<d;i++){
@@ -59,7 +58,7 @@ class ForLoop1
 
         
 
-		}
+		}*/
 		
 				
 		      
