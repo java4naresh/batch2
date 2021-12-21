@@ -29,5 +29,9 @@ class Banks
 		System.out.println(b.city);
 		System.out.println(b.ifsc);
 		System.out.println(b.pincode);
+
+         
+
+
 	}
 }

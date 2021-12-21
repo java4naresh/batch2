@@ -35,5 +35,6 @@ class Men {
 		System.out.println(m.marriage);
 		System.out.println(m.salary);
 
+
 	}
 }
