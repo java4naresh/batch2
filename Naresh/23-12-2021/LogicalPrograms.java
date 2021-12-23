@@ -15,8 +15,8 @@ class  LogicalPrograms
 		
 	
 		
-	}
-  public String isowel(char input){
+	} 
+public String isowel(char input){
     char word= input;
 if(word == 'a' || word=='e' || word =='i' || word=='o' || word=='u'){
 
