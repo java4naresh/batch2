@@ -5,18 +5,18 @@ class  LogicalPrograms
       LogicalPrograms lp = new LogicalPrograms();
 		//String results = lp.isowel('e');
 		//System.out.println(results);
-        //String results1 = lp.armstrong(153);
+       // String results1 = lp.armstrong(153);
 		//System.out.println(results1);
 		//String results2 = lp.percentage(75.0f);
 		//System.out.println(results2);
 		String results3= lp.switchTest(5);
 		System.out.println(results3);
-		  //lp.star(6);
+		 // lp.star(6);
 		
 	
 		
 	} 
-public String isowel(char input){
+/*public String isowel(char input){
     char word= input;
 if(word == 'a' || word=='e' || word =='i' || word=='o' || word=='u'){
 
@@ -36,8 +36,8 @@ public String armstrong(int input){
 	int armstrong = rem*rem*rem;
 	while(tem!=0){
 	rem = tem%10;//7
-	 tem = tem/10;//3
-   armstrong = armstrong+(rem*rem*rem);
+	 tem = tem/10;//3 
+   armstrong =armstrong+(rem*rem*rem);
 	}
 	
      if( num == armstrong){
@@ -46,20 +46,20 @@ public String armstrong(int input){
       else {
 		return ("not armstrong");
 	  }
-	 }
+	 }*/
 	/*public String percentage(float input){
       float percentage = input;
        String name = "gopinadh";
 
      if(percentage>70){
       return (name+" "+"got first class");
-	 } if(percentage>60 && percentage<70){
+	 } else if(percentage>60 && percentage<70){
            return (name+" "+"got second class");
-		 } if(percentage>50 && percentage<60){
+		 }else if(percentage>50 && percentage<60){
             return (name+" "+"got third class");
-		   } if(percentage>40 && percentage<50){
+		   }else if(percentage>40 && percentage<50){
                return (name+" "+"got fourth class");
-			 } if (percentage<40){
+			 }else if (percentage<40){
                 return (name+" "+"failed");
 			   }
 	 }*/
@@ -94,7 +94,7 @@ default:
 }
 
 }
-    public void star( int input){
+   /* public void star( int input){
      for(int i=1;i<input;i++) {
 		  for(int j=5;j>0;j--) {
 		  if(i>=j){
@@ -115,7 +115,7 @@ default:
          System.out.println();
 	  
      }
-  }  
+  } */
 
 }
 
