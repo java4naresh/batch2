@@ -7,7 +7,7 @@ class Students
 	String school;
 	long phone;
 
-	Address add;
+	
 	public Students(String nm,int roll,char gen,String dob,String sc,long ph,Address ad){
 		name=nm;
 		rollNum=roll;
