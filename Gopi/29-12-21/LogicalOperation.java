@@ -1,6 +1,6 @@
 class  LogicalOperation
 {
-	public int addetions(int num1,int num2,int num3){
+	public int additions(int num1,int num2,int num3){
 		int sum = num1+num2+num3;
 		return  sum;
 	}
