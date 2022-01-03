@@ -4,9 +4,9 @@ class  StaticExample
 
 
     static {
-	name = "srinivas";
-	name = getName();
-	name = getName3();
+	name = "srinivas"; = getName();
+	name = getNam
+	namee3();
 	}
 
     public static String getName() {
