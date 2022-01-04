@@ -10,7 +10,7 @@ public class PrivateExample {
     	System.out.println(name+" "+num);
     }
      
-      private static void sum(int num1,int num2) {
+      private void sum(int num1,int num2) {
     		 int add = num1+num2;
     		 System.out.println(add);
       }
