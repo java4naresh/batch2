@@ -1,6 +1,6 @@
 package inheritance1;
 
-import inheritance.PrivateExample;
+//import inheritance.PrivateExample;
 
 public class PrivateExampleclient {
 	
