@@ -18,5 +18,11 @@ public class Son extends Father {
 		return super.getNum1();
 	}
 
+
+	
+	
+	
+	
+
 	
 }
