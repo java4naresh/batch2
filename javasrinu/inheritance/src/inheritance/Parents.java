@@ -20,8 +20,8 @@ public String toString() {
 			+ ", parentsHeight=" + Arrays.toString(parentsHeight) + "]";
 }
 
-public String[] parentsDesignation() {
-	return new String []  {"farmer","housewife"};
+public String [] parentsDesignation() {
+	return new String[]  {"farmer","housewife"};
 }
  
 }

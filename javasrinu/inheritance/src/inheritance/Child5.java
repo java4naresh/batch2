@@ -7,8 +7,11 @@ public class Child5  extends Child2 {
 	  public int c5Age;
 	  public float c5Height;
 	  
-	  public Child5(String c5Name,int c5Age,float c5Height,String c2Name, int c2Age, float c2Height, String [] parentsNames,int [] parentsAges,float [] parentsHeight) {
+	  public Child5(String c5Name,int c5Age,float c5Height,String c2Name,int c2Age,float c2Height,String [] parentsNames,int [] parentsAges,float [] parentsHeight) {
 		  super(c2Name,c2Age,c2Height,parentsNames,parentsAges,parentsHeight);
+		  this.c5Name = c5Name;
+		  this. c5Age =  c5Age;
+		  this.c5Height = c5Height;
 	  }
 	  
 
