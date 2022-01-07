@@ -1,3 +1,4 @@
+
 class NonStaticExample 
 {
 	String name = "Naresh";//1
@@ -30,3 +31,5 @@ class NonStaticExample
         System.out.println(nse.name);
 	}
 }
+
+
