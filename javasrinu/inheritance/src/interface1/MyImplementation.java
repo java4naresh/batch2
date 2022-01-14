@@ -90,7 +90,7 @@ public int  Armstrong(int num1) {
 	}
 	if(n == armStrong) System.out.println(n + " is ArmStrong");
 	else System.out.println(n + " is not ArmStrong");
-	n++;
+	
 	}
 	return n;
 }
