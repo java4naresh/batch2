@@ -2,7 +2,7 @@ package abstractclass;
 
  public class Student1 extends Jobs {
 
-	public  void teckinalSkils() {
+	public  void technicalSkills() {
 		System.out.println("JAVA");
 	}
     public  void  project() {
