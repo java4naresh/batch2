@@ -8,13 +8,13 @@ public class HR {
      j.qualification();
      j.experience();
      j.project();
-     j.technicalSkills();
+     j.tecknicalSkills();
      System.out.println("=========");
-     Jobs student2 = new Student2();
-     student2.qualification();
-     student2.experience();
-     student2.project();
-     student2.technicalSkills();
+     Jobs js = new Student2();
+     js.qualification();
+     js.experience();
+     js.project();
+     js.tecknicalSkills();
      
 	}
 
