@@ -5,16 +5,16 @@ public class HR {
 	public static void main(String[] args) {
 	 Jobs j = new Student1();
 	 
-     j.qulification();
-     j.experance();
+     j.qualification();
+     j.experience();
      j.project();
-     j.teckinalSkils();
+     j.tecknicalSkills();
      System.out.println("=========");
-     Jobs student2 = new Student2();
-     student2.qulification();
-     student2.experance();
-     student2.project();
-     student2.teckinalSkils();
+     Jobs js = new Student2();
+     js.qualification();
+     js.experience();
+     js.project();
+     js.tecknicalSkills();
      
 	}
 

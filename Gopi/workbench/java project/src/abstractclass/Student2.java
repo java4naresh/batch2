@@ -1,8 +1,8 @@
 package abstractclass;
 
- public  class Student2 extends Jobs {
+ public   class Student2 extends Jobs {
 
-	public  void teckinalSkils() {
+	public  void tecknicalSkills() {
 		System.out.println("pythan");
 	}
     public  void  project() {
