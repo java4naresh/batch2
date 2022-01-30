@@ -25,7 +25,7 @@ public class Daughter extends Parent  {
 
 
 	public void setDName(String dName) {
-		
+		this.dName = dName;
 	}
 	public String getDName() {
 		
@@ -33,13 +33,13 @@ public class Daughter extends Parent  {
 	}
 	
 	public void setDAge(int dAge) {
-		
+		this.dAge = dAge;
 	}
 	public int getDAge() {
 		return this.dAge;
 	}
 	public void setDHeight(float dHeight) {
-		
+		this.dHeight = dHeight;
 	}
 	public float getDHeight() {
 		return this.dHeight ;

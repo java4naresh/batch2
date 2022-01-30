@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RevarsOfStringName {
 
 	public static void main(String[] args) {
-		String name = "";
+		String name = "amma";
 		System.out.println(name.length());
 		char[] chars = new char[name.length()];
 		int num = 0;
