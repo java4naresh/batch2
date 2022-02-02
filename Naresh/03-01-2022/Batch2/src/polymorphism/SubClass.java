@@ -1,5 +1,7 @@
 package polymorphism;
 
+import java.io.FileNotFoundException;
+
 public class SubClass extends SuperClass {
 	
 	@Override
@@ -11,6 +13,7 @@ public class SubClass extends SuperClass {
 		System.out.println("Hello Sub Class");
 	}
 
+	@Override
 	public void service() {
 		System.out.println(200);
 	}
