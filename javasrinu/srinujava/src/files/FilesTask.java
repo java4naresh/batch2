@@ -75,11 +75,16 @@ public class FilesTask {
 			File file = new File(fileName);
 			fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
-			String name = br.readLine();
-			System.out.println(name);
+			/*String name = br.readLine();
+			System.out.println(name);*/
+			String name = null;
+			while ((name = br.readLine())!= null){
+			
+			
 			String s = name;
 			String[]  array = s.split(" ");
 			System.out.println(Arrays.toString(array));
+			
 			FilesTask ft = new FilesTask();
 			ft.setFastName(array[0]);
 			ft.setLastName(array[1]);
@@ -87,8 +92,9 @@ public class FilesTask {
 			ft.setAge(Integer.parseInt(array[3]));
 			ft.setSalary(Double.parseDouble(array[4]));
 			ft.setHeight(Float.parseFloat(array[5]));
-			System.out.println(ft.toString());
 			
+			System.out.println(ft.toString());
+			}
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
