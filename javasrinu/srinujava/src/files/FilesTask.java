@@ -67,6 +67,8 @@ public class FilesTask {
 		return "FilesTask [fastName=" + fastName + ", lastName=" + lastName + ", gender=" + gender + ", age=" + age
 				+ ", salary=" + salary + ", height=" + height + "]";
 	}
+	
+	
 
 	
 	public void fileReadUsingBufferedReader(String fileName) {
