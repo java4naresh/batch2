@@ -71,13 +71,22 @@ public class FilesTask {
 	
 
 	
-	public void fileReadUsingBufferedReader(String fileName) {
+	
+	
+		
+	
+	
+	public static void main(String[] args) {
+
+		
+		
+       String fileName = "C:\\\\Users\\\\ADMIN\\\\Desktop\\\\simple.txt";
 		FileReader fr;
 		try {
 			File file = new File(fileName);
 			fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
-			/*String name = br.readLine();
+			/*String name = br.readLine();S
 			System.out.println(name);*/
 			String name = null;
 			while ((name = br.readLine())!= null){
@@ -100,16 +109,6 @@ public class FilesTask {
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-	}
 	
-		
-	
-	
-	public static void main(String[] args) {
-
-		FilesTask ft = new FilesTask();
-		ft.fileReadUsingBufferedReader("C:\\Users\\ADMIN\\Desktop\\simple.txt");
-       
-		
 	}
 }
