@@ -130,7 +130,7 @@ public class FilesExample {
 			PrintWriter pw = new PrintWriter(fw);
 			pw.write("srinu");
 			
-			pw.write("25");
+			pw.print("25");
 			pw.flush();
 			System.out.println("created");
 		} catch (IOException e) {
