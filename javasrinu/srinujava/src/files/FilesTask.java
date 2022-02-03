@@ -83,7 +83,7 @@ public class FilesTask {
 		
        String fileName = "C:\\\\Users\\\\ADMIN\\\\Desktop\\\\simple.txt";
 
-		try {
+		/*try {
 			File file = new File(fileName);
 			FileWriter	fw = new FileWriter(file,true);
 			PrintWriter pw = new PrintWriter(fw);
@@ -127,7 +127,7 @@ public class FilesTask {
 		} catch (IOException e) {
 	
 			e.printStackTrace();
-		}
+		}*/
 		
 	
 		try {
