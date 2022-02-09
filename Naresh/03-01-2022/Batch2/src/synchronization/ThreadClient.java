@@ -12,6 +12,7 @@ public class ThreadClient {
 		MyThread mt2 = new MyThread(t);
 		Thread thread2 = new Thread(mt2);
 		thread2.setName("mt2");
+		
 		thread2.start();
 		//mt.run();
 	}
