@@ -7,7 +7,8 @@ public class Batch2 {
 	private String name2;
 	
 	private String name3;
-
+	
+	
 	public Batch2(String name1, String name2, String name3) {
 		super();
 		this.name1 = name1;
