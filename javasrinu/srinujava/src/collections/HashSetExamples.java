@@ -26,6 +26,17 @@ public class HashSetExamples {
 		batch2.add(b1);
 		batch2.add(b2);
 		System.out.println(batch2);
+		
+		Set<Integer>hashset1 = new HashSet<>();
+		hashset1.add(5);
+		hashset1.add(2);
+		hashset1.add(1);
+		hashset1.add(3);
+		hashset1.add(4);
+		hashset1.add(6);
+		System.out.println(hashset1);
+		
+	
 
 }
 }
