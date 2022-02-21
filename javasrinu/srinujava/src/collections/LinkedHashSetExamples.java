@@ -26,8 +26,16 @@ public class LinkedHashSetExamples {
 		
 		 System.out.println(uniqueNames1);
 		
-		
-
+		 Set<User> user = new LinkedHashSet<>();
+		 User ur1 = new User(01,"srinu");
+		 User ur2 = new User(02,"srinu");
+		 User ur3 = new User(01,"srinu");
+		 
+		 user.add(ur1);
+		 user.add(ur2);
+		// user.add(ur3);
+		 System.out.println(user);
+   
 	}
 
 }
